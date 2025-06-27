@@ -45,4 +45,4 @@ def face_encode():
         return jsonify({"error": f"Lỗi xử lý: {str(e)}"}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
